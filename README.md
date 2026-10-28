@@ -38,7 +38,7 @@ JSON 的網址是寫死在前端 `src/data/specialProjects.ts` 裡的。**檔名
 要回溯某個特定版本，用帶 commit SHA 的不可變網址：
 
 ```
-https://raw.githubusercontent.com/Superbeeee/lair-floorplans/<commit-sha>/taipei-trade/2f.json
+https://raw.githubusercontent.com/lair-floorplans/lair-floorplans.github.io/<commit-sha>/taipei-trade/2f.json
 ```
 
 ## `baseImage.url` 必須是完整網址
@@ -47,7 +47,7 @@ https://raw.githubusercontent.com/Superbeeee/lair-floorplans/<commit-sha>/taipei
 
 ```json
 "baseImage": {
-  "url": "https://superbeeee.github.io/lair-floorplans/taipei-trade/2f.jpg",
+  "url": "https://lair-floorplans.github.io/taipei-trade/2f.jpg",
   "width": 1700,
   "height": 1700
 }
